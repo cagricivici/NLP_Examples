@@ -25,4 +25,6 @@ The main difference is that lstm goes forward only. It focuses on what happened 
 ![image](https://github.com/user-attachments/assets/c4fcf757-5fee-4d51-bba5-e401b6d71e06)
 ![image](https://github.com/user-attachments/assets/b8974671-5a4a-49d4-a774-d60b66d7a521)
 
+The other difference is the time lapsed. Bidirectional takes more time. Lets see:
+
 
