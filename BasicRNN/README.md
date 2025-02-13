@@ -18,13 +18,25 @@
   
 ![image](https://github.com/user-attachments/assets/ec10315b-3ba8-4b7a-b03b-c5ce7c0e45dc)
 
+> Bidirectional LSTM Model:
+* I see that overfitting was started. It might be because of the data size. In order to get fast result, i had cropped the data. 
+![image](https://github.com/user-attachments/assets/1d2d6e6a-b649-445e-93ae-bf58d5aa6853)
 
 # Comparison btw basic LSTM and Bidrectional LSTM:
 The main difference is that lstm goes forward only. It focuses on what happened in the past. That's why hidden layer is moving towards the right. But Bidirectional version double the hidden layers seen below. Forward and backward hidden layers goes through.
 
 ![image](https://github.com/user-attachments/assets/c4fcf757-5fee-4d51-bba5-e401b6d71e06)
+
 ![image](https://github.com/user-attachments/assets/b8974671-5a4a-49d4-a774-d60b66d7a521)
 
 The other difference is the time lapsed. Bidirectional takes more time. Lets see:
+Bidirectional LSTM -> the execution took 3731.799 sec vs LSTM -> the execution took 1497.624 sec
+
+**In these results, LSTM has better score and performance.**
+
+# Let see what if my data is bigger/complexer:
+
+
+
 
 
