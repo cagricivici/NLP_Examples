@@ -17,3 +17,12 @@
 * The result is more better than the rnn, right :)
   
 ![image](https://github.com/user-attachments/assets/ec10315b-3ba8-4b7a-b03b-c5ce7c0e45dc)
+
+
+# Comparison btw basic LSTM and Bidrectional LSTM:
+The main difference is that lstm goes forward only. It focuses on what happened in the past. That's why hidden layer is moving towards the right. But Bidirectional version double the hidden layers seen below. Forward and backward hidden layers goes through.
+
+![image](https://github.com/user-attachments/assets/c4fcf757-5fee-4d51-bba5-e401b6d71e06)
+![image](https://github.com/user-attachments/assets/b8974671-5a4a-49d4-a774-d60b66d7a521)
+
+
