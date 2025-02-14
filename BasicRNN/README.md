@@ -35,7 +35,7 @@ Bidirectional LSTM -> the execution took 3731.799 sec vs LSTM -> the execution t
 **In these results, LSTM has better score and performance.**
 
 # Let see what if my data is bigger/complexer:
-
+somehow lstm model went exploding gradient. I will investigate deeply at different folder. go to -->https://github.com/cagricivici/NLP_Examples/tree/main/Basic%20LSTM%20with%20Glove
 
 
 
